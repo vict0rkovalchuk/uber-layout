@@ -243,4 +243,34 @@ header {
     .mobile_item_6 {
       background: url("../img/bg/mobile_screen_6.jpg") center center/cover no-repeat; }
 
+.topcar {
+  min-height: 502px;
+  padding: 54px 0 322px 0;
+  background: #070716; }
+  .topcar .label {
+    background: #FFFFFF;
+    color: #070716; }
+  .topcar .title {
+    color: #FFFFFF; }
+  .topcar .subtitle {
+    color: #FFFFFF; }
+
+.bottomcar {
+  position: relative;
+  min-height: 397px;
+  padding-top: 210px;
+  background: url("../img/bg/mobile_app.png") center center/cover no-repeat;
+  color: #222222;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center; }
+  .bottomcar_img {
+    text-align: center;
+    position: absolute;
+    top: -267px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+
 /*# sourceMappingURL=style.css.map */
