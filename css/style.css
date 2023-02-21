@@ -639,6 +639,11 @@ footer {
 
   .menu {
     width: 80%; }
+    .menu_item {
+      width: 100%;
+      text-align: center; }
+    .menu_link {
+      display: block; }
 
   .subheader {
     top: 32px;
@@ -661,6 +666,9 @@ footer {
       font-size: 9px;
       margin-top: 7px;
       text-transform: uppercase; }
+      .subheader_btn:hover {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%); }
 
   .promo {
     min-height: 400px;
@@ -679,6 +687,9 @@ footer {
       height: 50px;
       font-weight: 400;
       font-size: 16px; }
+      .promo_btn:hover {
+        background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%); }
 
   .reasons {
     padding: 20px 0 38px 0; }
